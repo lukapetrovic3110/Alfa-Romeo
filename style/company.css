@@ -33,7 +33,7 @@ body a:hover{
 
 .center{
     margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 #header{
@@ -57,51 +57,86 @@ body a:hover{
 }
 
 #menu{
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 20px;
-    word-spacing: 5px;
     text-align: center;
     display: inline-block;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     width: 70%;
+    height: 100px;
 }
 
 #nav ul{
-    list-style-type: none;
-    line-height: 45px;
-    text-align: center;
+    border: 30px;
+    line-height:45px;
+	list-style-type:none;
+	overflow: hidden;
+	text-align:center;
 }
 
 #nav ul li{
     position: center;
-    list-style: none;
-    float: left;
     border-left: 1px solid black;
-    opacity: 0.9;
+    opacity: 0.8;
     font-weight: bold;
+    float: left;
 }
 
 #nav ul li a{
     display: block;
     text-align: center;
-    padding: 12px 70px;
+    padding: 14px 70px;
     text-decoration: none;
 }
 
-#nav ul ul{
-    margin-left: -1px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    padding: 0px;
-    width: 100px;
-    position: absolute;
-    visibility: hidden;
+#content{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 900px;
+    left: 25px;
+    opacity: 0.9;
 }
 
-#nav ul li:hover ul{
-    visibility: visible;
+#content img.img
+{
+    margin-left:40%;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:0px;
+    width:250px;
+	height:250px;
+	opacity:0.9;
+    line-height:95px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	vertical-align:middle;
+	
+
+}
+
+#content img.img:hover
+{
+    background-color:#003f80;
+	height:260px;
+	width:260px;   
+}
+
+.txt{
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4d94ff;
+    font-size: 1.25em;
+    padding-top: 50px;
+    padding-left: 18px;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
 #footer{
@@ -112,7 +147,7 @@ body a:hover{
     height: 30px;
     color: #003f80;
     opacity: 0.9;
-    margin-top: 35%;
+    margin-top: 10px;
     text-align: center;
     font-style: italic;
 }
